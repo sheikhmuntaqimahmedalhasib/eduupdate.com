@@ -68,3 +68,52 @@ nav {
 .search-box input:focus {
     width: 180px;
 }
+
+
+
+.toggle-bar {
+    background: #3d1c69;
+    padding: 16px 10px;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.toggle-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.toggle-row:last-child {
+    margin-bottom: 0;
+}
+
+.toggle-item {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    border: none;
+}
+
+.toggle-item:hover {
+    background: linear-gradient(135deg, #060422, #020226);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transform: translateX(5px);
+
+}
+
+.toggle-item.active {
+    background: linear-gradient(135deg, #10b981, #3b82f6);
+    color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
