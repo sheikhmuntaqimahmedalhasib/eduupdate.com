@@ -203,3 +203,75 @@ nav {
     transform: translateX(5px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
+
+
+
+.footer {
+    padding: 50px 20px;
+    background: #0a1a2f;
+    text-align: center;
+    color: white;
+}
+
+.frh1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 30px;
+}
+
+.social-icon a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+    border-radius: 50%;
+    transition: all 0.35s ease;
+}
+
+.social-icon img {
+    width: 20px;
+    height: 20px;
+    filter: grayscale(100%) brightness(0.3);
+    transition: all 0.35s ease;
+}
+
+.social-icon a:hover {
+    transform: translateX(5px) scale(1.08);
+}
+
+.social-icon:nth-child(1) a:hover {
+    background: linear-gradient(135deg, #0078D4, #00A4EF);
+}
+
+.social-icon:nth-child(2) a:hover {
+    background: #1877F2;
+}
+
+.social-icon:nth-child(3) a:hover {
+    background: linear-gradient(135deg,#f58529,#dd2a7b,#8134af);
+}
+
+.social-icon:nth-child(4) a:hover {
+    background: #000000;
+}
+
+.social-icon:nth-child(5) a:hover {
+    background: #000000;
+}
+
+.social-icon:nth-child(6) a:hover {
+    background: #10a748;
+}
+
+.social-icon a:hover img {
+    filter: brightness(0) invert(1);
+}
